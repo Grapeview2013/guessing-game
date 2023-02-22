@@ -16,11 +16,11 @@ class GuessingGame {
   }
 
   lower() {
-    this.max = this.guessNumber - 1;
+    this.max = this.guessNumber;
   }
 
   greater() {
-    this.min = this.guessNumber + 1;
+    this.min = this.guessNumber;
   }
 }
 
